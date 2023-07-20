@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dd62ff;
+
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    background-color: rgb(33, 31, 31);
+    color: white;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  a{
+    display: inline-block;
+    padding: 9px 19px;
+    background-color: lightgreen;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+
+  a:hover {
+    text-decoration: none;
+    background-color: green;
+  }

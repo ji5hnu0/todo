@@ -1,0 +1,110 @@
+.task-items-wrapper {
+  margin-top: 20px;
+}
+
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5px;
+  padding-top: 30px;
+}
+
+.header-bar .inner-header{
+  padding-left: 46%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-left: 46%;
+  background-color: lightgreen;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: green;
+}
+
+.buttons {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: lightcoral;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.buttons:hover {
+  background-color: red;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #dd62ff;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+.fit-image1{
+  border: 3px solid #dd62ff;
+  padding: 5px;
+  content: url(edit.png);
+}
+
+.fit-image1:hover{
+  background-color: darkorchid;
+}
+
+.fit-image2{
+  border: 3px solid #dd62ff;
+  padding: 5px;
+  content: url(trash.png);
+}
+
+.fit-image2:hover{
+  background-color: darkorchid;
+}
+
+.fit-image3{
+  border: 3px solid #dd62ff;
+  padding: 5px;
+  content: url(view.png);
+}
+
+.fit-image3:hover{
+  background-color: darkorchid;
+}

@@ -1,0 +1,33 @@
+body{
+    background-color: #dd62ff;
+}
+
+
+
+.navbar{
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a{
+    float: left;
+    padding: 14px 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: violet;
+    color: black;
+}
+
+div.image-wrapper{
+    height: 50%;
+    width: 50%;
+    content: url(todo_img.png);
+    float: right;
+    padding-right: 150px;
+}

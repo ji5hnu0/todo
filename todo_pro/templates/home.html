@@ -1,0 +1,29 @@
+
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TODO Home</title>
+    <link rel="stylesheet" href="{% static 'style_home.css' %}">
+</head>
+<body>
+<div class="navbar">
+    <a href="{% url 'home' %}" >Home</a>
+    <div class="text">
+        <a href="{% url 'login' %}" style="">Login</a>
+        <a href="{% url 'register' %}" style="">Sign Up</a>
+        {% block content %}
+
+    </div>
+    {% endblock content %}
+</div>
+
+<div class="image-wrapper">
+
+</div>
+
+</body>
+</html>
